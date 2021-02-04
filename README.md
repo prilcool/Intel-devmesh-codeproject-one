@@ -1,4 +1,5 @@
-# Banking & Financial Audits through parallel computing DPC++ ( Process Millions of records in seconds)
+# Banking & Financial Audits through parallel computing DPC++ 
+
 Banking &amp; Financial Audits through parallel computing DPC++ ( Process Millions of records in seconds)
 
 Design scalable and flexible  parallel data processing and audit systems with Intel DPC++.  
