@@ -8,8 +8,10 @@ Eg :Auditing interest  paid to each user based on the users dynamic account  bal
 
 
 Entry for codeproject.com and INTEL Devmesh  DPC++
+
 Type : Written from scratch 
 
 #Usage instructions :
 Copy the entire file structure and Upload it to  Intel  Jupyter lab .
+
 RUN 
