@@ -28,3 +28,11 @@ Run the following  jupyter notebook  Interest-on-account-audit-onemillion_record
 ## Than Run  the following command
 ! chmod 755 q; chmod 755 run_audit.sh;if [ -x "$(command -v qsub)" ]; then ./q run_audit.sh; else ./run_audit.sh; fi 
 
+
+On successfull run you would have processed  simple interest calculations on  One million records  at around  4 to  6 seconds  
+This same calulation in php or msql will take ages to complete :)
+
+You should be able to download the file containing the out put from the left hand side in jupyter notebook  named  parallel_interest_on_account_audit.txt 
+
+![alt text](https://raw.githubusercontent.com/prilcool/Intel-devmesh-codeproject-one/main/Assets/out.PNG)
+
