@@ -33,6 +33,7 @@ On successfull run you would have processed  simple interest calculations on  On
 This same calulation in php or msql will take ages to complete :)
 
 You should be able to download the file containing the out put from the left hand side in jupyter notebook  named  parallel_interest_on_account_audit.txt 
+containing 1 million records at around 180 mb .
 
 ![alt text](https://raw.githubusercontent.com/prilcool/Intel-devmesh-codeproject-one/main/Assets/out.PNG)
 
