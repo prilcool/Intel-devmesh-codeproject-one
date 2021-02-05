@@ -14,7 +14,7 @@ Entry for codeproject.com and INTEL Devmesh  DPC++
 
 
 ## Usage instructions :
-Copy  all the entire structure including all files to  Intel dev cloud .
+Copy the entire structure including all files to  Intel dev cloud .
 
 Ensure that the  Python 3.7 (Intel OneApi)  kernal is running
 
