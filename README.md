@@ -25,6 +25,6 @@ Ensure that file exist in  lab/simple_interest_audit.cpp
 
 Run the following  jupyter notebook  Interest-on-account-audit-onemillion_records.ipynb
 
-## Than Run  
+## Than Run  the following command
 ! chmod 755 q; chmod 755 run_audit.sh;if [ -x "$(command -v qsub)" ]; then ./q run_audit.sh; else ./run_audit.sh; fi 
 
