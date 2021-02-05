@@ -13,7 +13,18 @@ Entry for codeproject.com and INTEL Devmesh  DPC++
 
 
 
-#Usage instructions :
-Copy the entire file structure and Upload it to  Intel  Jupyter lab .
+## Usage instructions :
+Copy  all the entire structure including all files to  Intel dev cloud .
 
-RUN 
+Ensure that the  Python 3.7 (Intel OneApi)  kernal is running
+
+Ensure that you are using the q file ,run_audit.sh and Makefile that is provided with this sourcecode.
+
+Ensure that file exist in  lab/simple_interest_audit.cpp
+
+
+Run the following  jupyter notebook  Interest-on-account-audit-onemillion_records.ipynb
+
+## Than Run  
+! chmod 755 q; chmod 755 run_audit.sh;if [ -x "$(command -v qsub)" ]; then ./q run_audit.sh; else ./run_audit.sh; fi 
+
