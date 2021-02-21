@@ -26,8 +26,16 @@ Ensure that file exist in  lab/simple_interest_audit.cpp
 Run the following  jupyter notebook  Interest-on-account-audit-onemillion_records.ipynb
 
 ## Than Run  the following command
-! chmod 755 q; chmod 755 run_audit.sh;if [ -x "$(command -v qsub)" ]; then ./q run_audit.sh; else ./run_audit.sh; fi 
-
+     ! chmod 755 q; chmod 755 run_audit.sh;if [ -x "$(command -v qsub)" ]; then ./q run_audit.sh; else ./run_audit.sh; fi 
+     
+## Cross architecture compatibility GPU & CPU
+     This code can Run on both on CPU and GPU of below specs
+     
+     if you select a GPU device than Device: Intel(R) Graphics Gen9 [0x3e96] will process in 4 to 6 seconds for this example
+     queue q(gpu_selector{});
+    
+    if you select a CPU device than Device: Intel(R) Xeon(R) E-2176G CPU @ 3.70GHz will process in 4 to 9 seconds for this example
+     queue q(=cpu_selector{});
 
 On successfull run you would have processed  simple interest calculations on  One million records  at around  4 to  6 seconds  
 This same calulation in php or msql will take ages to complete :)
