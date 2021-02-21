@@ -33,7 +33,7 @@ else
         echo -ne "█"
         ((timeout++))
         # Timeout if no output file generated within 60 seconds
-        if [ $timeout == 60 ]; then
+        if [ $timeout == 260 ]; then
             echo ""
             echo ""
             echo "TimeOut 260 seconds: Job is still queued for execution, check for output file later ($script.o$job_id)"
